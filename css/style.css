@@ -1,0 +1,29 @@
+a:hover {
+  color: #E64848;
+}
+
+ul li.active a {
+  background: #E64848;
+  color: #262626;
+  border-radius: 5px;
+}
+
+#Home {
+  padding-top: 7rem;
+}
+
+#About {
+  padding-top: 4rem;
+}
+
+#Services {
+  padding-top: 4rem;
+}
+
+#MyProject {
+  padding-top: 4rem;
+}
+
+#Contact {
+  padding-top: 4rem;
+}
