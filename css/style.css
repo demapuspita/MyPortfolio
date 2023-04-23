@@ -2,10 +2,6 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
-a:hover {
-  color: #E64848;
-}
-
 .navbar-nav >li>a {
   color: black !important;
 }
