@@ -6,9 +6,20 @@ a:hover {
   color: #E64848;
 }
 
+.navbar-nav >li>a {
+  color: black !important;
+}
+
+.navbar-nav >li>a:hover {
+  background-color: #df4759;
+  border-radius: 5px;
+  background-image: none;
+  color: white !important;
+}
+
 ul li.active a {
-  background: #E64848;
-  color: #262626;
+  background-color: #E64848;
+  color: white !important;
   border-radius: 5px;
 }
 
