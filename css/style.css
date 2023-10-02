@@ -39,3 +39,7 @@ ul li.active a {
 #Contact {
   padding-top: 4rem;
 }
+
+.card {
+  min-height:380px;
+}
