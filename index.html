@@ -69,11 +69,27 @@
         </nav>
         <!-- Navbar Akhir -->
 
-        <!-- Home Awal -->
-        <section class="jumbotron text-center text-danger bg-white" id="Home">
-          <img src="img/dema.jpg" alt="demapuspita" width="200" class="rounded-circle img-thumbnail mb-3" />
-          <h1 class="display-5">Dema Puspita Kiranti</h1>
-          <p class="lead">Fresh Graduate <br> System Information of Accounting</p>
+        <section class="jumbotron bg-white" id="Home">
+          <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 order-md-2 mb-3 text-center">
+                    <img src="img/dema.jpg" width="300" class="img-fluid mw-md-170 mw-lg-150 rounded-circle mb-3 mb-md-0 shadow-sm" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 order-md-1 text-center text-md-start">
+                    <h1 class="fw-bold mb-3">Hi There, <br> I'm <span class="text-secondary">Dema Puspita Kiranti</span></h1>
+                    <h5 class="fw-bold">I Am <span class="auto-input text-danger">a Fresh Graduate</span></h5>
+                </div>
+                <div class="col-lg-12 order-md-3 d-flex align-items-center">
+                  <a href="https://drive.google.com/drive/folders/1271ZUwAHJlKhxBHHTxX_uXFVMccwRHIg?usp=share_link" class="btn btn-danger me-5">Download CV</a>
+                  <div class="social-links">
+                    <a href="https://www.instagram.com/demapuspitaa/" class="text-dark me-2 fs-4"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dema-puspita-kiranti/" class="text-dark me-2 fs-4"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/demapuspita" class="text-dark me-2 fs-4"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+            </div> <!-- / .row -->
+        </div>  
+          </div> <!-- / .container -->
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#F8F9FA"
@@ -81,8 +97,7 @@
               d="M0,64L30,58.7C60,53,120,43,180,74.7C240,107,300,181,360,218.7C420,256,480,256,540,245.3C600,235,660,213,720,181.3C780,149,840,107,900,112C960,117,1020,171,1080,181.3C1140,192,1200,160,1260,128C1320,96,1380,64,1410,48L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
             ></path>
           </svg>
-        </section>
-        <!-- Home Akhir -->
+      </section>
 
         <!-- About Awal -->
         <section class="about bg-light" id="About">
@@ -94,21 +109,11 @@
                 </div>
               </div>
             </div>
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div class="col-md-6">
                 <div class="about-text">
                   <h3 class="fs-4 fw-bold mb-3">More About Me</h3>
-                  <p class="text-muted text-justify">I am a Fresh Graduate with an Associate Degree in Accounting Information Systems from Universitas Teknologi Digital Indonesia, with a focus on web development, especially becoming a Front-End Developer. I studied basic concepts in user interface design and responsive web development. In addition, I have the ability to convert visual designs into interactive web and user-friendly. I also have worked in a team that have improved my communication and made me understand what it takes to meet tight deadlines.</p>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 d-flex align-items-center">
-                    <a href="https://drive.google.com/drive/folders/1271ZUwAHJlKhxBHHTxX_uXFVMccwRHIg?usp=share_link" class="btn btn-danger me-5">Download CV</a>
-                    <div class="social-links">
-                      <a href="https://www.instagram.com/demapuspitaa/" class="text-dark me-2 fs-4"><i class="fab fa-instagram"></i></a>
-                      <a href="https://www.linkedin.com/in/dema-puspita-kiranti/" class="text-dark me-2 fs-4"><i class="fab fa-linkedin-in"></i></a>
-                      <a href="https://github.com/demapuspita" class="text-dark me-2 fs-4"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                  </div>
+                  <p class="text-muted text-justify">I am a Fresh Graduate with an Associate Degree in System Information of Accounting from Universitas Teknologi Digital Indonesia, with a focus on web development, especially becoming a Front-End Developer. I studied basic concepts in user interface design and responsive web development. In addition, I have the ability to convert visual designs into interactive web and user-friendly. I also have worked in a team that have improved my communication and made me understand what it takes to meet tight deadlines.</p>
                 </div>
               </div>
               <div class="col-md-5 mt-5 mt-md-0">
@@ -366,6 +371,10 @@
 
         <!-- Navbar Active -->
         <script src="js/navbar.js"></script>
+
+        <!-- Auto Input -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="js/typed.js"></script>
 
         <!-- Card Effect -->
         <script src="js/card.js"></script>

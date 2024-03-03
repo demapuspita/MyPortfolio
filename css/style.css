@@ -43,3 +43,8 @@ ul li.active a {
 .card {
   min-height:380px;
 }
+
+.auto-input {
+  color: #E64848;
+  font-weight: bold;
+}
