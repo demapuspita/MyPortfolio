@@ -13,11 +13,12 @@
   color: white !important;
 }
 
-ul li.active a {
+.navbar-nav > li > a.active {
   background-color: #E64848;
   color: white !important;
   border-radius: 5px;
 }
+
 
 #Home {
   padding-top: 7rem;
